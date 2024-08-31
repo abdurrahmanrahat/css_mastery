@@ -58,9 +58,10 @@ p {
 .section-border {
   width: 1000px;
   color: #fff;
-  /* background-color: #5e9de9; */
+  background-color: #5e9de9;
+  margin-bottom: 10px;
   /*?  border here  */
-  /* border: 15px solid #003180; */
+  border: 15px solid #003180;
 
   /*?  write each property individual  */
   /* border-width: 15px;
@@ -93,6 +94,20 @@ p {
 /* Creating Custom Radius for Each Corner:  */
 /* top-left | top-right | bottom-right | bottom-left */
 /*? border-radius: 15px 5px 10px 20px; */
+
+div {
+  width: 500px;
+  height: 500px;
+  background-color: #5e9de9;
+  /* border-radius: 100px 10px 250px 0px; */
+  border-radius: 30% 70% 70% 30% / 30% 28% 72% 70%;
+  background-image: linear-gradient(to right top,
+      #051937,
+      #004d7a,
+      #008793,
+      #00bf72,
+      #a8eb12);
+}
 
 /** ------------------------------------- -->
 /** NOTES + TIPS
