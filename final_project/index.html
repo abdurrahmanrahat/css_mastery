@@ -19,6 +19,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Final Project</title>
   </head>
@@ -72,7 +74,7 @@
               <a href="service.html" class="btn btn-white">Learn with us</a>
             </div>
           </div>
-          <div class="section-hero--image">
+          <div class="section-hero--image" data-aos="fade-up">
             <figure>
               <img src="./images/main-hero.png" alt="a 3d character" />
             </figure>
@@ -116,7 +118,7 @@
       </div>
 
       <div class="container grid grid-three--cols">
-        <div class="about-div">
+        <div class="about-div" data-aos="fade-up">
           <div class="icon">
             <img src="./images/research.png" alt="recharge" />
           </div>
@@ -127,7 +129,7 @@
             learn.
           </p>
         </div>
-        <div class="about-div">
+        <div class="about-div" data-aos="fade-up" data-aos-delay="300">
           <div class="icon">
             <img src="./images/design.png" alt="thapa eduhub research team" />
           </div>
@@ -138,7 +140,7 @@
           </p>
         </div>
 
-        <div class="about-div">
+        <div class="about-div" data-aos="fade-up" data-aos-delay="600">
           <div class="icon">
             <img src="./images/Coding.png" alt="thapa eduhub research team" />
           </div>
@@ -271,7 +273,7 @@
 
         <!--? center part of image  -->
 
-        <div class="choose-center--div">
+        <div class="choose-center--div" data-aos="zoom-in">
           <figure>
             <img
               src="./images/mobile.png"
@@ -391,5 +393,11 @@
       </div>
     </footer>
     <!-- ============= FOOTER SECTION END ============= -->
+
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
